@@ -1,3 +1,4 @@
+/* Home */
 
 body{
     padding: 0;
@@ -14,24 +15,22 @@ header{
     padding: 20px;
     justify-content: space-between;
     align-items: center;
+    height: 45px;
 }
 
 header nav a{
     color: rgb(202, 207, 210);
     text-decoration: none;
+    font-size: 25px;
 
 }
 
-#Buscador{
-
-}
-
-#Subtitulo{
+.Subtitulo{
     color: rgb(202, 207, 210);
     margin: 20px 15px;
 }
 
-#Populares{
+.Populares{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -39,18 +38,18 @@ header nav a{
     align-items: center;
 }
 
-#Peliculas{
+.Peliculas{
     background-color: rgb(121, 125, 127);
     text-align: center;
     margin: 0px 0px 10px 0px;
 }
 
-#Textos{
+.Textos{
     text-decoration: none;
     color: rgb(202, 207, 210);
 }
 
-#Textos:hover{
+.Textos:hover{
     color: rgb(27, 38, 49);
 }
 
@@ -59,7 +58,7 @@ header nav a{
     height: 390px;
 }
 
-#JuegoDeHonor{
+#Juegodehonor{
     width: 340px;
     height: 390px;
 }
@@ -94,9 +93,6 @@ header nav a{
     height: 390px;
 }
 
-
-
-
 footer{
     background-color: rgb(121, 125, 127);
     padding: 20px;
@@ -107,4 +103,54 @@ footer h4 {
     display: flex;
     justify-content: center;
 }
+
+/* Detalle */
+
+.Buscar{
+    font-size: 20px;
+    border-radius: 1px;
+}
+
+#PortaDivs{
+    background-image: url("../img/FIght Club.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+}
+
+#Estrellas{
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#Titulo{
+    font-size: 50px;
+    margin-left: 20px;
+    color: rgb(213, 219, 219);
+}
+
+#Caracteristicas{
+    background-color: rgb(202, 207, 210);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Data{
+    margin-right: 15px;
+}
+
+#Descripcion{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+
 
