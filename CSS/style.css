@@ -6,7 +6,7 @@ body{
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;;
     background-color: rgb(142, 68, 173);
-
+    position: relative; /* necesito esto tambien para o del footer */
 }
 
 header{
@@ -96,6 +96,8 @@ header nav a{
 footer{
     background-color: rgb(108, 52, 131);
     padding: 20px;
+    bottom: 0;
+    width: 97%;
 }
 
 footer h4 {
@@ -117,7 +119,8 @@ footer h4 {
     display: flex;
     flex-direction: column;
     color: white;
-    justify-content: space-around;
+    justify-content: flex-end;
+    height: 70vh;
 }
 
 #Estrellas{
@@ -152,6 +155,9 @@ footer h4 {
 
 /* Favoritos */
 
+.FavMain{
+    margin-bottom: 150px;
+}
 .Favoritas{
     display: flex;
     flex-wrap: wrap;
@@ -168,6 +174,24 @@ footer h4 {
 .Peli{
     margin-left: 10px;
     margin-bottom: 10px;
+}
+
+/* Busqueda */
+
+.Buscador{
+    margin-bottom: 100px;
+}
+
+.Busqueda{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nombre{
+    text-align: center;
 }
 
 
